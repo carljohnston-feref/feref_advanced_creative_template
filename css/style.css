@@ -17,6 +17,10 @@ Reset CSS ---------------------------------------
 ---------------------------------------------- */
 * {
     box-sizing: border-box;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -67,12 +71,17 @@ Global ad styles --------------------------------
 
 body {
     background: #000000;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
 }
 
 #adContainer {
     width: 970px;
     height: 250px;
     background: #ffffff;
+    margin: auto;
 }
 
 #frame1,
